@@ -25,9 +25,12 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  justify-content: center;
+  max-width: 100vw;
   min-height: 100vh;
+  background-color: #fede16;
+  overflow-x: hidden;
+  padding-top: 10px;
 }
 
 h1 {
@@ -57,7 +60,8 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #fede16;
+    overflow-x: hidden;
   }
   a:hover {
     color: #747bff;
@@ -65,4 +69,46 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.imageBanner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  max-height: 100px;
+  margin: auto;
+  margin-bottom: 135px;
+}
+
+.bingoContainer {
+  display: flex;
+  justify-content: center;
+  min-width: 90vw;
+  background-color: #fede16;
+}
+
+.bingoRows {
+  overflow: hidden;
+  max-width: 160px;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.bingoSquares {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  overflow: hidden;
+  margin-bottom: 5px;
+  min-width: 100%;
+  min-height:160px;
+}
+
+.star {
+  background-color: #fede16;
+    width: 150px;
+    aspect-ratio: 1;
+    clip-path: polygon(79.39% 90.45%,50% 69%,20.61% 90.45%,31.93% 55.87%,2.45% 34.55%,38.83% 34.63%,50% 0%,61.17% 34.63%,97.55% 34.55%,68.07% 55.87%);
 }
