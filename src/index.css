@@ -102,6 +102,18 @@ button:focus-visible {
   background-color: white;
   overflow: hidden;
   margin-bottom: 5px;
+  padding: 10px;
+  min-width: 100%;
+  min-height:160px;
+}
+
+.starContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  overflow: hidden;
+  margin-bottom: 5px;
   min-width: 100%;
   min-height:160px;
 }
@@ -111,4 +123,17 @@ button:focus-visible {
     width: 150px;
     aspect-ratio: 1;
     clip-path: polygon(79.39% 90.45%,50% 69%,20.61% 90.45%,31.93% 55.87%,2.45% 34.55%,38.83% 34.63%,50% 0%,61.17% 34.63%,97.55% 34.55%,68.07% 55.87%);
+}
+
+
+.inputContainer {
+  max-width: 100%;
+}
+
+.inputSquare {
+  max-width: 100%;
+}
+
+.colorpicker {
+  background: #fff;
 }

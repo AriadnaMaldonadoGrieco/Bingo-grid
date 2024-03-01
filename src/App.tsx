@@ -1,5 +1,9 @@
+import React, { Component } from "react";
 import "./../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import HxH from "./images/hh.jpg";
+import EditSquares from "./editSquares";
+
+
 
 function App() {
   return (
@@ -10,41 +14,41 @@ function App() {
 
       <div className="bingoContainer text-center d-flex align-items-center grid gap-1">
         <div className="col bingoRows" >
-          <div className="row bingoSquares">one</div>
-          <div className="row bingoSquares">two</div>
-          <div className="row bingoSquares">three</div>
-          <div className="row bingoSquares">four</div>
-          <div className="row bingoSquares">five</div>
+          <div className="row bingoSquares"><EditSquares/></div>
+          <div className="row bingoSquares"><EditSquares/></div>
+          <div className="row bingoSquares"><EditSquares/></div>
+          <div className="row bingoSquares"><EditSquares/></div>
+          <div className="row bingoSquares"><EditSquares/></div>
         </div>
         <div className="col bingoRows" >
-          <div className="row bingoSquares">one</div>
-          <div className="row bingoSquares">two</div>
-          <div className="row bingoSquares">three</div>
-          <div className="row bingoSquares">four</div>
-          <div className="row bingoSquares">five</div>
+          <div className="row bingoSquares"><EditSquares/></div>
+          <div className="row bingoSquares"><EditSquares/></div>
+          <div className="row bingoSquares"><EditSquares/></div>
+          <div className="row bingoSquares"><EditSquares/></div>
+          <div className="row bingoSquares"><EditSquares/></div>
         </div>
         <div className="col bingoRows" >
-          <div className="row bingoSquares">one</div>
-          <div className="row bingoSquares">two</div>
-          <div className="row bingoSquares">
+          <div className="row bingoSquares"><EditSquares/></div>
+          <div className="row bingoSquares"><EditSquares/></div>
+          <div className="row starContainer">
             <div className="star"></div>
           </div>
-          <div className="row bingoSquares">four</div>
-          <div className="row bingoSquares">five</div>
+          <div className="row bingoSquares"><EditSquares/></div>
+          <div className="row bingoSquares"><EditSquares/></div>
         </div>
         <div className="col bingoRows" >
-          <div className="row bingoSquares">one</div>
-          <div className="row bingoSquares">two</div>
-          <div className="row bingoSquares">three</div>
-          <div className="row bingoSquares">four</div>
-          <div className="row bingoSquares">five</div>
+          <div className="row bingoSquares"><EditSquares/></div>
+          <div className="row bingoSquares"><EditSquares/></div>
+          <div className="row bingoSquares"><EditSquares/></div>
+          <div className="row bingoSquares"><EditSquares/></div>
+          <div className="row bingoSquares"><EditSquares/></div>
         </div>
         <div className="col bingoRows" >
-          <div className="row bingoSquares">one</div>
-          <div className="row bingoSquares">two</div>
-          <div className="row bingoSquares">three</div>
-          <div className="row bingoSquares">four</div>
-          <div className="row bingoSquares">five</div>
+          <div className="row bingoSquares"><EditSquares/></div>
+          <div className="row bingoSquares"><EditSquares/></div>
+          <div className="row bingoSquares"><EditSquares/></div>
+          <div className="row bingoSquares"><EditSquares/></div>
+          <div className="row bingoSquares"><EditSquares/></div>
         </div>
       </div>
     </>
